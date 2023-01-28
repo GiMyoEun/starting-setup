@@ -43,9 +43,11 @@ const App = () => {
         return updatedExpense;
       } else {
         return expense;
+
+
+
       }
     });
-
     setExpenses(() => {
       return updatedExpenses;
     });
@@ -71,6 +73,7 @@ const App = () => {
   const onDeleteExpenseHandler = (expenses) => {
     setExpenses(() => {
       return expenses;
+      
     });
   };
 
